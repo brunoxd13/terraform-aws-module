@@ -12,7 +12,7 @@ variable "zone" {
 }
 
 variable "records" {
-  description = "List of Route53 Records to be created"
+  description = "List of Route53 records to be created"
   type        = list(any)
 }
 

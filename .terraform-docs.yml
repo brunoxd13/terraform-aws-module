@@ -1,0 +1,18 @@
+formatter: "markdown"
+
+output:
+  file: "./README.md"
+  mode: inject 
+
+content: |-
+  {{ .Header }}
+
+  ## Example
+
+  ```hcl
+  {{ include "example/main.tf" }}
+  ```
+
+  {{ .Inputs }}
+
+  {{ .Outputs }}  
