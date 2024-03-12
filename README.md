@@ -1,5 +1,8 @@
-<!-- BEGIN_TF_DOCS -->
+# Terraform AWS Module
 
+> This module is a sample of how to create terraform modules using the best practices.
+
+<!-- BEGIN_TF_DOCS -->
 
 ## Example
 
