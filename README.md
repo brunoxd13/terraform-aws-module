@@ -38,7 +38,7 @@ module "route53" {
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_records"></a> [records](#input\_records) | List of Route53 Records | `list(any)` | n/a | yes |
+| <a name="input_records"></a> [records](#input\_records) | List of Route53 records | `any` | n/a | yes |
 | <a name="input_tags"></a> [tags](#input\_tags) | Map of resource tags | `map(any)` | n/a | yes |
 | <a name="input_zone"></a> [zone](#input\_zone) | Map of Route53 Zone parameters | <pre>object({<br>    name              = string<br>    comment           = optional(string)<br>    delegation_set_id = optional(string)<br>    vpc = optional(object({<br>      id     = string<br>      region = optional(string)<br>    }))<br>  })</pre> | n/a | yes |
 

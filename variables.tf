@@ -12,8 +12,8 @@ variable "zone" {
 }
 
 variable "records" {
-  description = "List of Route53 Records"
-  type        = list(any)
+  description = "List of Route53 records"
+  type        = any
 }
 
 variable "tags" {
