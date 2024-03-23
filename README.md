@@ -1,7 +1,8 @@
-# route53-module
+# AWS Route53 Module
+
+> This module creates and manage Route53 Zones and Recods
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-
 
 ## Example
 
