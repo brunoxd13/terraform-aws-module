@@ -99,5 +99,5 @@ module "route53" {
 |------|-------------|
 | <a name="output_name_servers"></a> [name\_servers](#output\_name\_servers) | The Route53 zone NS |
 | <a name="output_recrods"></a> [recrods](#output\_recrods) | The Route53 zone records |
-| <a name="output_zone_id"></a> [zone\_id](#output\_zone\_id) | The Route53 zone ID |
+| <a name="output_zone_id"></a> [zone\_id](#output\_zone\_id) | The Route53 zone ID |  
 <!-- END_TF_DOCS -->
