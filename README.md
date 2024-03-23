@@ -1,4 +1,4 @@
-# route53-module
+# AWS Route53 Module
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
