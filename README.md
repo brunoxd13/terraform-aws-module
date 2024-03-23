@@ -2,7 +2,6 @@
 
 <!-- BEGIN_TF_DOCS -->
 
-
 ## Example
 
 ```hcl
