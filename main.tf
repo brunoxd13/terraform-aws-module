@@ -27,7 +27,7 @@ resource "aws_route53_zone" "this" {
 
 module "records" {
   source  = "terraform-aws-modules/route53/aws//modules/records"
-  version = "2.11.0"
+  version = "3.1.0"
 
   zone_name = var.zone.name
   records   = var.records
