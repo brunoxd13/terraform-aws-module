@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Release
-        uses: cycjimmy/semantic-release-action@v4
+        uses: cycjimmy/semantic-release-action@v6
         with:
           semantic_version: 23.0.2
           extra_plugins: |
